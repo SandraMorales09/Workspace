@@ -1,0 +1,1 @@
+const carrito = document.getElement8yId('carrito');
