@@ -1,0 +1,214 @@
+      
+
+/* {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+
+.fondo-0 {
+    background: url('siste.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    width: 120px;
+    height: 15px;
+}
+
+/* {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+
+.fondo-1 {
+    background: url('siste.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 0px;
+   width: 120px;
+   height: 70px;
+}
+
+
+/* {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+.fondo-2 {
+    background: url('siste.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 0px;
+   width: 120px;
+   height: 25px;
+}
+
+
+
+
+    .body {
+        text-align: center;
+    }
+
+    .body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contein {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contein-0 {
+    min-height: 80px;
+    background: #228b22;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li  {
+    font-size: relative;
+    padding: 20px;
+    color: #DEDEDE; 
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li  {
+    color: #ffffff;
+}
+
+.cont-0 {
+    margin-top: 100px;
+    display: flex;
+    background-color: limegreen; 
+    padding: 25px;
+    color: #fff;
+   justify-content: center;
+}
+
+.h2 {
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    background-color: dimgray;
+    padding: 25px;
+    color: #fff;
+    padding-left: 25px;
+}
+
+.cont-1 {
+    margin-top: 50px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+    justify-content: center;
+}
+
+table {
+    margin-top: 50;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right:  auto;
+}
+
+td,th {
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10 px;
+    padding-bottom: 10px;
+}
+
+
+.cont-2 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+    justify-content: center;
+}
+
+.cont-3 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+   justify-content: center;
+}
+
+
+
+.cont-4 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+   justify-content: center;
+}
+
+
+.cont-5 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+   justify-content: center;
+}
+
+
+.cont-6 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #fff;
+   justify-content: center;
+}
+
+

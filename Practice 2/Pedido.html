@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scal">
+    <title>Levantar pedido</title>
+    <style>
+
+    body {
+        background: linear-gradient(to bottom, deepskyblue, rgb(0, 0, 205));
+  }
+  
+    
+
+     /* {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }*/  
+
+    .fondo-4 {
+    background: url('siste.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    }
+
+    
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Aqui se hace el pedido</h1>
+    
+    <div class="fondo-4">
+    <img src="img/Taconauta.png" alt="">
+    </div>
+
+    <form action="pedido.js">
+        <label for="Nombre">Datos tu Nombre, Taconauta</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br>
+        <br>
+            <label for="mesa">Tu mesa (Esta el numero abajo)</label><br>
+            <input type="numer" name="mesa" id="mesa" placeholder="4">
+
+            <p>Para aqui o para llevar</p>
+            <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+            <label for="aqui">Aqui</label><br>
+            <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+            <label for="verde">Llevar</label><br>
+
+
+            <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+            <label for="mercurio">Mercurio</label><br>
+            <input type="number" id="MercurioCuanos" name="Mercurio cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="venus" name="venus" value="venus">
+            <label for="venus">Venus</label>
+            <input type="number" id="venusCuantos" name="venusCuantos" placeholder="¿Cuantos?">
+
+           <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="luna" name="luna" value="Luna">
+            <label for="Luna">Luna</label><br>
+            <input type="number" id="LunaCuanos" name="Luna cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="estrella" name="estrella" value="estrella">
+            <label for="estrella">Estrella</label>
+            <input type="number" id="estrellaCuantos" name="estrellaCuantos" placeholder="¿Cuantos?">
+
+            <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="tierra" name="tierra" value="Tierra">
+            <label for="Tierra">Tierra</label><br>
+            <input type="number" id="TierraCuanos" name="Tierra cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Marte" name="marte" value="marte">
+            <label for="marte">Marte</label>
+            <input type="number" id="marteCuantos" name="marteCuantos" placeholder="¿Cuantos?">
+
+            <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="Jupiter" name="jupiter" value="Jupiter">
+            <label for="jupiter">Mercurio</label><br>
+            <input type="number" id="JupiterCuanos" name="Jupiter cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Saturno" name="saturno" value="saturno">
+            <label for="venus">Venus</label>
+            <input type="number" id="saturnoCuantos" name="saturnoCuantos" placeholder="¿Cuantos?">
+
+            <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="urano" name="urano" value="Urano">
+            <label for="urano">Urano</label><br>
+            <input type="number" id="UranoCuanos" name="Urano cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Neptuno" name="neptuno" value="neptuno">
+            <label for="neptuno">Neptuno</label>
+            <input type="number" id="neptunoCuantos" name="neptunoCuantos" placeholder="¿Cuantos?">
+
+            <p>¿Tacos de Que?</p>
+            <input type="checkbox" id="pluton" name="pluton" value="Pluton">
+            <label for="pluton">Pluton</label><br>
+            <input type="number" id="PlutonCuantos" name="Pluton cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Big Bang" name="big bang" value="big bang">
+            <label for="big bang">Big Bang</label>
+            <input type="number" id="bigbangCuantos" name="bigbangCuantos" placeholder="¿Cuantos?">
+               
+            <p>Paquete ¿Via Lactea? ¿Galaxia?</p>
+            <p>50 tacos a elegir con salsas y verdura aparte</p>
+            <p>25 tacos a legir con salsa y verdura aparte</p>
+            <input type="checkbox" id="Via Lactea" name="Via Lactea" value="Via Lactea">
+            <label for="via lactea">Via Lactea</label><br>
+            <input type="number" id="Via LacteaCuantos" name="Via Lactea cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Galaxia" name="Galaxia" value="galaxia">
+            <label for="planeta">Planeta</label>
+            <input type="number" id="galaxiaCuantos" name="galaxiaCuantos" placeholder="¿Cuantos?">
+
+            <p>Paquete ¿Luna?¿Cometa?</p>
+            <p>5 tacos a elegir con salsa y verdura aparte</p>
+            <p>40 tortillas ffrita con salsa, rellena de pollo</p>
+            <input type="checkbox" id="Luna" name="Luna" value="Luna">
+            <label for="luna">Luna</label><br>
+            <input type="number" id="LunaCuantos" name="Luna cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Cometa" name="Cometa" value="cometa">
+            <label for="cometa">Cometa</label>
+            <input type="number" id="cometaCuantos" name="cometaCuantos" placeholder="¿Cuantos?">
+
+            <p>Paquete ¿Estrella Fugaz? ¿Estrella?</p>
+            <p>25 Molletes</p>
+            <p>30 bolillos con frijoles y queso</p>
+            <input type="checkbox" id="Estrella Fugaz" name="Estrella Fugaz" value="Estrella Fugaz">
+            <label for="estrella fugaz">Estrella Fugaz</label><br>
+            <input type="number" id="Estrella FugazCuantos" name="Estrella Fugaz cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Estrella" name="Estrella" value="estrella">
+            <label for="estrella">Estrella</label>
+            <input type="number" id="estrellaCuantos" name="estrellaCuantos" placeholder="¿Cuantos?">
+
+            <p>Promocion ¿Agujero Negro? ¿Estrella?</p>
+            <p>Alambre con queso</p>
+            <p>Pechuga empanizada</p>
+            <input type="checkbox" id="Agujero Negro" name="Agujero Negro" value="Agujero Negro">
+            <label for="agujero negro">Agujero Negro</label><br>
+            <input type="number" id="Agujero NegroCuantos" name="Agujero Negro cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Estrella" name="Estrella" value="estrella">
+            <label for="estrella">Estrella</label>
+            <input type="number" id="estrellaCuantos" name="estrellaCuantos" placeholder="¿Cuantos?">
+
+            <p>Paquete ¿Sol? ¿cometa?</p>
+            <p>Costilla Asada</p>
+            <p>Filete de res asado</p>
+            <input type="checkbox" id="Sol" name="Sol" value="Sol">
+            <label for="sol">Sol</label><br>
+            <input type="number" id="SolCuantos" name="Sol cuantos" placeholder="¿Cuantos?">
+            <input type="checkbox" id="Sol" name="Sol" value="sol">
+            <label for="sol">Sol</label>
+            <input type="number" id="cometaCuantos" name="cometaCuantos" placeholder="¿Cuantos?">
+
+
+
+            <p>¿Y para tomar?¿Gaseosa o Soda?</p>
+            <select name="refresco" id="refresco">
+             <option value="Coca-Cola">Coca-Cola</option>
+             <option value="Fanta">Fanta</option>
+             <option value="Manzana">Manzana</option>
+             <option value="Sprite">Sprite</option>
+             <option value="Sangria">Sangria</option>
+             <option value="Squirt">Squirt</option>
+             <option value="Pepsi">Pepsi</option>
+             <option value="Mundet">Mundet</option>
+             <option value="Peñafiel-Fresada">Peñafiel-Fresada</option>
+             <option value="Peñafiel-Manzanita">Peñafiel-Manzanita</option>
+             <option value="Peñafiel-Sangria">Peñafiel-Sangria</option>
+             <option value="Peñafiel-Arandano">Peñafiel-Arandano</option>
+             <option value="Peñafiel-Naranjada">Peñafiel-Naranjada</option>
+             <option value="Peñafiel-Limonada">Peñafiel-Limonada</option>
+             <option value="Peñafiel-Toronjada">Peñafiel-Toronjada</option>
+             <option value="Toronja">Toronja</option>
+             <option value="Mirinda">Mirinda</option>
+             <option value="Big-Cola">Big-Cola</option>
+             <option value="Fresca">Fresca</option>
+             <option value="Jarritos(Sabor)">Jarritos(Sabor)</option>
+             <option value="Jarritos-Pomelo">Jarritos-Pomelo</option>
+             <option value="Jarritos-Guava">Jarritos-Guava</option>
+             <option value="Jarritos-Tamarindo">Jarritos-Tamarindo</option>
+             <option value="Jarritos-Mxca-Cola">Jarritos-Mxca-Cola</option>
+             <option value="Jarritos-Mandarina">Jarritos-Mandarina</option>
+             <option value="Jarritos-Lima">Jarritos-Lima</option>
+             <option value="Jarritos-Piña">Jarritos-Piña</option>
+             <option value="Jarritos-Mango">Jarritos-Mango</option>
+             <option value="7UP">7UP</option>
+             <option value="Mexicana">Mexicana</option>
+             <option value="Naranjada de Jumex">Naranjada de Jumex</optio>
+        </select>
+
+        <p>¿Y para tomar agua?</p>
+        <select name="Aguas Frescos" id="Aguas Frescos">
+            <option value="Agua-de-Horchata">Agua-de-Horchata</option>
+            <option value="Agua-de-Jamaica">Agua-de-Jamaica</option>
+            <option value="Agua-de-Piña-Colada">Agua-de-Piña-Colada</option>
+            <option value="Agua-de-Pepino-con-Limon">Agua-de-Pepino-con-Limn</option>
+            <option value="Agua-de-Guayaba">Agua-de-Guayaba</option>
+            <option value="Agua-de-Fresa">Agua-de-Fresa</option>
+            <option value="Agua-de-Manzana">Agua-de-Manzana</option>
+            <option value="Agua-de-Limonada">Agua-de-Limonada</option>
+            <option class="Agua-de-Mango">Agua-de-Mango</option>
+            <option class="Hojicha-con-Leche">Hojicha-con-Leche</option>
+            <option value="Agua-de-Melon">Agua-de-Melon</option>
+            <option value="Agua-de-Naranja">Agua-de-Naranja</option>
+            <option value="Agua-de-Carambola">Agua-de-Carambola</option>
+            <option value="Agua-de-Coco">Agua-de-Coco</option>
+            <option value="Agua-de-Guanabana">Agua-de-Guanabana</option>
+            <option value="Agua-de-Frambuesa">Agua-de-Frambuesa</option>
+            <option value="Agua-de-Maracuya">Agua-de-Maracuya</option>
+            <option value="Agua-de-Rompope">Agua-de-Rompope</option>
+            <option value="Agua-de-Sandia">Agua-deSandia</option>
+            <option value="Agua-de-Tamarindo">Agua-de-Tamarindo</option>
+            <option value="Te-Negro-Helado">Te-Negro-Helado</option>
+            <option value="Agua-de-Vainilla">Agua-de-Vainilla</option>
+            <option value="Agua-de-Papaya">Agua-de-Papaya</option>
+         </select>
+            
+        <p>¿Y para tomar Cerveza?</p>
+        <select>
+           <option value="Modelo-Especial">Modelo-Especial</option>
+           <option value="Victoria">Victoria</option>
+           <option value="Heineken">Heineken</option>
+           <option value="Corona">Corona</option>
+           <option value="Tecate">Tecate</option>
+           <option value="Barrilito">Barrilito</option>
+           <option value="New mix">New mix</option>
+           <option value="Dos XX">Dos XX</option>
+           <option value="Carta Blanca">Carta Blanca</option>
+           <option value="Bohemia">Bohemia</option> 
+
+        </select>
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+
+    </form>
+
+</body>
+
+</html>
