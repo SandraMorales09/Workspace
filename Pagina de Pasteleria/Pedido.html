@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scal">
+    <title>Levantar pedido</title>
+    <link rel="stylesheet" href="style-1.css">
+</head>
+
+<body>
+
+
+
+
+    <h1>Aqui se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Datos tu Nombre, Pasteleria Los Ositos Kawaii</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+    </form>
+
+    <form action="pedido.js">
+        <label for="Celular">Datos de Numero Celular, Pasteleria Los Ositos Kawaii</label><br>
+        <input type="text" id="Celular" name="Celular" placeholder="Celular">
+    </form>
+
+    <form action="pedido.js">
+        <label for="Colonia">Nombre de Colonia, Pasteleria Los Ositos Kawaii</label><br>
+        <input type="text" id="Colonia" name="Colonia" placeholder="Colonia">
+    </form>
+
+    <form action="pedido.js">
+        <label for="Municipio">Nombre de Municipio, Pasteleria Los Ositos Kawaii</label><br>
+        <input type="text" id="Municipio" name="Municipio" placeholder="Municipio">
+    </form>
+
+    <form action="pedido.js">
+        <label for="Calle">Calle de Domicilio, Pasteleria Los Ositos Kawaii</label><br>
+        <input type="text" id="Calle" name="Calle" placeholder="Calle">
+    </form> 
+
+    <br>
+    <br>
+        <label for="Entrega">Entrega (Esta el numero abajo)</label><br>
+        <input type="numer" name="entrega" id="entrega" placeholder="4">
+
+        <p>Para llevar a domicilio</p>
+        <input type="radio" id="entrega" name="llevar a domicilio" value="llevar">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="aqui o llevar" value="Llevar">
+        <label for="verde">Llevar</label><br>
+
+
+
+
+
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="number" id="ChocolateCuantos" name="Chocolate cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="red velvet" name="red velvet" value="red velvet">
+        <label for="red velvet">red velvet</label>
+        <input type="number" id="redvelveteCuantos" name="redvelvetCuantos" placeholder="¿Cuantos?">
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="Vainilla" name="vainilla" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+        <input type="number" id="VainillaCuantos" name="Vainilla cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="coco limon" name="coco limon" value="coco limon">
+        <label for="coco limon">coco limon</label>
+        <input type="number" id="cocolimonCuantos" name="cocolimonCuantos" placeholder="¿Cuantos?">
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="cafe" name="cafe" value="Cafe">
+        <label for="Cafe">Cafe</label><br>
+        <input type="number" id="CafeCuantos" name="Cafe cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="Fresas con crema" name="fresas con crema" value="fresas con crema">
+        <label for="fresas con crema">fresas con crema</label>
+        <input type="number" id="fresas con cremaCuantos" name="fresas con Cuantos" placeholder="¿Cuantos?">
+
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="vainilla con chocolate" name="vainilla con chocolate" value="Vainilla con chocolate">
+        <label for="Vainilla con chocolate">Vainilla con chocolate</label><br>
+        <input type="number" id="Vainilla con chocolate Cuantos" name="Vainilla con chocolate cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="queso con melocoton" name="queso con melocoton" value="queso con melocoton">
+        <label for="queso con melocoton">queso con melocoton</label>
+        <input type="number" id="queso con melocoton Cuantos" name="queso con melocotonCuantos" placeholder="¿Cuantos?">
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="napoles con cereza" name="napoles con cereza" value="Napoles con Cereza">
+        <label for="Napoles con Cereza">Napoles con Cereza</label><br>
+        <input type="number" id="Napoles con CerezaCuantos" name="Napoles con Cereza cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="Zanahoria con Nuez" name="zanahoria con nuez" value="zanahoria con Nuez">
+        <label for="zanahoria con nuez">zanahoria con nez</label>
+        <input type="number" id="zanahoria con nuezCuantos" name="zanahoriaconnuezCuantos" placeholder="¿Cuantos?">
+
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="tres leches" name="tres leches" value="Tres leches">
+        <label for="Tres leches">Tres leches</label><br>
+        <input type="number" id="Tres leches Cuantos" name="Tres leches cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="moka nuez" name="moka nuez" value="moka nuez">
+        <label for="moka y nuez">moka y nuez</label>
+        <input type="number" id="moka y nuezCuantos" name="moka y nuezCuantos" placeholder="¿Cuantos?">
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="chocolate con frutas" name="chocolate con frutas" value="Chocolate con frutas">
+        <label for="Chocolate con frutas">Chocolate con frutas</label><br>
+        <input type="number" id="Chocolate con frutasCuantos" name="Chocolate con frutas cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="pie de queso, frambuesa y chocolate blanco" name="pie de queso, frambuesa y chocolate blanco" value="chocolate con frutas">
+        <label for="pie de queso, con frambuesa y chocolate blanco ">pie de queso, con frambuesa y chocolate blanco</label>
+        <input type="number" id="pie de queso, frambuesa y chocolate blancoCuantos" name="pie de queso, con frambuesa y chocolate blanco Cuantos" placeholder="¿Cuantos?">
+
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="queso con piña colada" name="queso con piña colada" value="Queso con piña colada">
+        <label for="Queso con piña colada">Queso con piña colada</label><br>
+        <input type="number" id="Queso con piña coladaCuantos" name="Queso con piña colada cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="Brownie de chocolate" name="Brownie de chocolate" value="brownie de chocolate">
+        <label for="brownie de chocolate">brownie de chocolate</label>
+        <input type="number" id="brownie de chocolateCuantos" name="brownie de chocolateCuantos" placeholder="¿Cuantos?">
+
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="chocoflan" name="chocoflan" value="Chocoflan">
+        <label for="Chocoflan">Chocoflan</label><br>
+        <input type="number" id="ChocoflanCuantos" name="Chocoflan cuantos" placeholder="¿Cuantos?">
+        <input type="checkbox" id="Chocolate amargo con frutas" name="Chocolate amargo con frutas" value="chocolate amargo con frutas">
+        <label for="chocolate amrgo con frutas">chocolate amargo con frutas</label>
+        <input type="number" id="chocolate amargo con frutas" name=" chocolate amargo con frutasCuantos" placeholder="¿Cuantos?">
+
+     
+
+        <p>¿Pastel de Que?</p>
+        <input type="checkbox" id="tiramisu" name="tiramisu" value="Tiramisu">
+        <label for="Tiramisu">Tiramisu</label><br>
+        <input type="number" id="Tiramisu" name="Tiramisu" placeholder="¿Cuantos?">
+        <input type="checkbox" id="Personalizado" name="Personalizado" value="Personalizado">
+        <label for="personalizado">personalizado</label>
+        <input type="number" id="personalizadoCuantos" name="personalizadoCuantos" placeholder="¿Cuantos?">
+
+
+        <p>Pastel de Sabor</p>
+        <select name="pastel de sabor" id="pastel de sabor">
+            <option value="Chocolate-Chocolate-Amargo">Chocolate-Chocolate-Amargo</option>
+            <option value="Red-Velvet-Red-velvet">Red Velvet-Red Velvet</option>
+            <option value="Vainilla-Vainilla">Vainilla-Vainilla</option>
+            <option value="Coco-Coco">Coco-Coco</option>
+            <option value="Cafe-Cafe">Cafe-Cafe</option>
+            <option value="Moka-Moka">Moka-Moka</option>
+            <option value="Fresas-con-Crema">Fresas-con-Crema</option>
+            <option value="Zanahoria-con-Nuez-Pasas">Zanahoria-con-Nuez-Pasas</option>
+            <option value="Tres-Leches">Tres-Leches</option>
+            <option value="Moka-y-Nuez">Moka-y-Nuez</option>
+            <option value="Chocolate-dulce">Chocolate-Dulce</option>
+            <option value="Brownie-Brownie">Brownie-Brownie</option>
+            <option value="Chocoflan-Chocoflan">Chocoflan-Chocoflan</option>
+            <option value="Tiramisu-Tiramisu">Tiramisu-Tiramisu</option>
+
+        </select>
+
+        <p>Merengue de pastel</p>
+        <select name="merengue de pastel" id="Merengue de pastel">
+            <option value="Merengue-de-Chocolate-Amargo">Merengue-de-Chocolate-Amargo</option>
+            <option value="Merengue-de-fresa">Merengue-de-Fresa</option>
+            <option value="Merengue-de-Vainilla">Merengue-de-Vainilla</option>
+            <option value="Coco-Limon">Coco-Limon</option>
+            <option value="Merengue-de-Cafe">Merengue-de-Cafe</option>
+            <option value="Merengue-de-Moka">Merengue-de-Moka</option>
+
+        </select> 
+
+        <p>Tarta y Pay o Pie</p>
+
+
+     
+
+    
+
+
+
+
+        
+        <p>¿Decoraciones de Pastel</p>
+        <h3>Doble combinacion</h3>
+
+        <select name="combinacion" id="combinacion">              
+            <option value="Flores-Naturales">Flores-Naturales</option>
+            <option value="Melindros-Melindros">Melindros-Melindros</option>
+            <option value="Guinalda-Guinalda">Guinalda-Guinalda</option>
+            <option value="Pedreria-Acentos-Metalizados">Pedreria-Acentos-Metalizados</option>
+            <option value="Fruta-Fresa">Fruta-Fresa</option>
+            <option value="Fruta-Uvas">Frutas-Uvas</option>
+            <option value="Fruta-Durazno">Fruta-Durazno</option>
+            <option value="Fruta-Banana">Fruta-Banana</option>
+            <option value="Fruta-Zarza">Fruta-Zarza</option>
+            <option value="Fruta-Arandano">Fruta-Arandano</option>
+            <option value="Fruta-Moras">Fruta-Moras</option>
+            <option value="Fruta-Kiwi">Fruta-Kiwi</option>
+            <option value="Fruta-Piña">Fruta-Piña</option>
+            <option value="Fruta-Mango">Fruta-Mango</option>
+            <option value="Fruta-zarzamora-arandanos-cereza">Fruta-zarzamora-arandanos-cereza</option>
+            <option value="Flores-Azucar">Flores-Azucar</option>
+            <option value="Bolitas-Bolitas">Bolitas-Bolitas</option>
+            <option value="Perlas-Perlas">Perlas-Perlas</option>
+            <option value="Fideos-Fideos">Fideos-Fideos</option>
+            <option value="Corazones-Azucar">Corazones-Azucar</option>
+            <option value="Confetis-Azucar">Confetis-Azucar</option>
+            <option value="Papel-Azucar">Papel-Azucar</option>
+            <option value="Oblea-Azucar">Oblea-Azucar </option>
+            <option value="Estrella-Azucar">Estrella-Azucar</option> 
+            <option value="Figuras-Geometricas">Figuras-Geometricas</option>
+            <option value="Hallowen-Comestible">Halloween-Comestible</option>
+            <option value="Chips-Chocolate">Chips-Chocolate</option>
+            <option value="Copos-Nieve-Azucar">Copos-Nieve-Azucar</option>
+            <option value="Spinacas-secas-Sprinkles">Spinacas-secas-Sprinkles</option>
+            <option value="Decoraciones-Infantiles-Comestibles">Decoraciones-Infantiles-Comestibles</option>
+            <option value="Decoracion-Anime-Comestible">Decoracion-Anime-Comestible</option> 
+            <option value="Decoracion-Gamer-Comestible">Decoracion-Gamer-Comestible</option>
+            <option value="Plumas-Oblea-Azul">Plumas-Oblea-Azul-Cielo</option>
+            <option value="Plumas-Oblea-Morado-Lila">Plumas-Oblea-Morado-Lila</option>
+            <option value="Plumas-Oblea-Amarillo">Plumas-Oblea-Amarillo</option> 
+            <option value="Plumas-Oblea-Verde-claro">Plumas-Oblea-Verde-Claro</option>
+            <option value="Plumas-Oblea-Rojo">Plumas-Oblea-Rojo</option>
+            <option value="Plumas-Oblea-Rosa">Plumas-Oblea-Rosa</option>
+            <option value="Plumas-Oblea-Naranja">Plumas-Oblea-Naranja</option>
+            <option value="Plumas-Rosa-Fuerte">Plumas-Oblea-Naranja</option> 
+            <option value="Plumas-Azul-Rey">Plumas-Azul-Rey</option>
+            <option value="Hojas-Decoracion-Oblea-Azul-Cielo">Hojas-Decoracion-Oblea-Azul-Cielo</option>
+            <option value="Hojas-Decoracion-Oblea-Morado-Lila">Hojas-Decoracion-Oblea-Morado-Lila</option> 
+            <option value="Hojas-Decoracion-Oblea-Amarillo">Hojas-Decoracion-Oblea-Amarillo</option>
+            <option value="Hojas-Decoracion-Oblea-Verde-Claro">Hojas-Decoracion-Oblea-Verde-Claro</option> 
+            <option value="Hojas-Decoracion-Oblea-Rojo">Hojas-Decoracion-Oblea-Rojo</option>
+            <option value="Hojas-Decoracion-Oblea-Naranja">Hojas-Decoracion-Oblea-Naranja</option> 
+            <option value="Hojas-Decoracion-Oblea-Rosa-Fuerte">Hojas-Decoracion-Rosa-Fuerte</option>
+            <option Value="Hojas-Decoracion-Oblea-Azul-Rey">Hojas-Decoracion-Oblea-Azul-Rey</option>
+            <option value="Mariposas-Oblea-Azul-Oscuro">Mariposas-Oblea-Azul-Oscuro</option> 
+            <option value="Mariposas-Oblea-Rosa">Mariposas-Oblea-Rosa</option>
+            <option value="Mariposas-Oblea-Morado-Lila">Mariposas-Oblea-Morado-Lila</option> 
+            <option value="Mariposas-Oblea-Rojo">Mariposas-Oblea-Rojo</option>
+            <option value="Mariposas-Oblea-Verde-Claro">Mariposas-Oblea-Verde-Claro</option> 
+            <option value="Mariposas-Oblea-Naranja">Mariposas-Oblea-Naranja</option>
+            <option value="Mariposas-Oblea-Azul-Claro">Mariposas-Oblea-Azul-Claro</option> 
+            <option value="Mariposas-Oblea-Amarillo">Mariposas-Oblea-Amarillo</option> 
+            <option value="Figuras-Diseños-Fondant">Figuras-Diseños-Fondant</option>
+            <option value="Escamas-Purpurina-Verde-Claro">Escamas-Purpurina-Verde-Claro</option>
+            <option value="Escamas-Purpurina-Amarillo">Escamas-Purpurina-Amarillo</option>
+            <option value="Escamas-Purpurina-Rosa-Fuerte">Escamas-Purpurina-Rosa-Fuerte</option>
+            <option value="Escamas-Purpurina-Naranja">Escamas-Purpurina-Naranja</option>
+            <option value="Escamas-Purpurina-Rojo">Escamas-Purpurina-Rojo</option>
+            <option value="Escamas-Purpurina-Azul-Rey">Escamas-Purpurina-Azul-Rey</option>
+            <option value="Diamantes-Comestibles-Morado-Lila">Diamantes-Comestibles-Morado-Lila</option>
+            <option value="Diamantes-comestibles-Verde-Turquesa">Diamantes-Comestibles-Verde-Turquesa</option>
+            <option value="Diamantes-Comestibles-Azul-Cielo">Diamantes-Comestibles-Azul-Cielo</option>
+            <option value="Diamantes-Comestibles-Blanco">Diamantes-Comestibles-Blanco</option>
+            <option value="Diamantes-comestibles-Morado">Diamantes-Comestibles-Morado</option>
+            <option value="Diamantes-Comestibles-Amarillo">Diamantes-Comestibles-Amarillo</option>
+            <option value="Diamantes-Comestibles-Rosa">Diamantes-Comestibles-Rosa</option>
+            <option value="Diamantes-Comestibles-Verde-Claro">Diamantes-Comestibles-Verde-Claro</option>
+            <option value="Diamantes-Comestibles-Azul-Rey">Diamantes-Comestibles-Azul-Rey</option>
+            <option value="Diamantes-Comestibles-Rojo">Diamantes-Comestibles-Rojo</option>
+            <option value="Diamantes-Comestibles-Naranja">Diamantes-Comestibles-Naranja</option>
+            <option value="Gemas-Crystales-Comestibles">Gemas-Crystales-Comestibles</option>
+            <option value="Glaseado-Chocolate">Glaseado-Chocolate</option>
+            <option value="Glaseado-Vainilla">Glaseado-Vainilla</option>
+            <option value="Glaseado-Fresa">Glasedo-Fresa</option>
+            <option value="Glaseado-Piña">Glaseado de Piña</option>
+            <option value="Flores artificiales">Flores-Artificiales</option>
+        </select>
+
+        <p>¿Combinacion de adornos Pastel</p>
+      
+
+        <select name="combinacion" id="combinacion">              
+            <option value="Flores-Naturales">Flores-Naturales</option>
+            <option value="Melindros-Melindros">Melindros-Melindros</option>
+            <option value="Guinalda-Guinalda">Guinalda-Guinalda</option>
+            <option value="Pedreria-Acentos-Metalizados">Pedreria-Acentos-Metalizados</option>
+            <option value="Fruta-Fresa">Fruta-Fresa</option>
+            <option value="Fruta-Uvas">Frutas-Uvas</option>
+            <option value="Fruta-Durazno">Fruta-Durazno</option>
+            <option value="Fruta-Banana">Fruta-Banana</option>
+            <option value="Fruta-Zarza">Fruta-Zarza</option>
+            <option value="Fruta-Arandano">Fruta-Arandano</option>
+            <option value="Fruta-Moras">Fruta-Moras</option>
+            <option value="Fruta-Kiwi">Fruta-Kiwi</option>
+            <option value="Fruta-Piña">Fruta-Piña</option>
+            <option value="Fruta-Mango">Fruta-Mango</option>
+            <option value="Fruta-zarzamora-arandanos-cereza">Fruta-zarzamora-arandanos-cereza</option>
+            <option value="Flores-Azucar">Flores-Azucar</option>
+            <option value="Bolitas-Bolitas">Bolitas-Bolitas</option>
+            <option value="Perlas-Perlas">Perlas-Perlas</option>
+            <option value="Fideos-Fideos">Fideos-Fideos</option>
+            <option value="Corazones-Azucar">Corazones-Azucar</option>
+            <option value="Confetis-Azucar">Confetis-Azucar</option>
+            <option value="Papel-Azucar">Papel-Azucar</option>
+            <option value="Oblea-Azucar">Oblea-Azucar </option>
+            <option value="Estrella-Azucar">Estrella-Azucar</option> 
+            <option value="Figuras-Geometricas">Figuras-Geometricas</option>
+            <option value="Hallowen-Comestible">Halloween-Comestible</option>
+            <option value="Chips-Chocolate">Chips-Chocolate</option>
+            <option value="Copos-Nieve-Azucar">Copos-Nieve-Azucar</option>
+            <option value="Spinacas-secas-Sprinkles">Spinacas-secas-Sprinkles</option>
+            <option value="Decoraciones-Infantiles-Comestibles">Decoraciones-Infantiles-Comestibles</option>
+            <option value="Decoracion-Anime-Comestible">Decoracion-Anime-Comestible</option> 
+            <option value="Decoracion-Gamer-Comestible">Decoracion-Gamer-Comestible</option>
+            <option value="Plumas-Oblea-Azul">Plumas-Oblea-Azul-Cielo</option>
+            <option value="Plumas-Oblea-Morado-Lila">Plumas-Oblea-Morado-Lila</option>
+            <option value="Plumas-Oblea-Amarillo">Plumas-Oblea-Amarillo</option> 
+            <option value="Plumas-Oblea-Verde-claro">Plumas-Oblea-Verde-Claro</option>
+            <option value="Plumas-Oblea-Rojo">Plumas-Oblea-Rojo</option>
+            <option value="Plumas-Oblea-Rosa">Plumas-Oblea-Rosa</option>
+            <option value="Plumas-Oblea-Naranja">Plumas-Oblea-Naranja</option>
+            <option value="Plumas-Rosa-Fuerte">Plumas-Oblea-Naranja</option> 
+            <option value="Plumas-Azul-Rey">Plumas-Azul-Rey</option>
+            <option value="Hojas-Decoracion-Oblea-Azul-Cielo">Hojas-Decoracion-Oblea-Azul-Cielo</option>
+            <option value="Hojas-Decoracion-Oblea-Morado-Lila">Hojas-Decoracion-Oblea-Morado-Lila</option> 
+            <option value="Hojas-Decoracion-Oblea-Amarillo">Hojas-Decoracion-Oblea-Amarillo</option>
+            <option value="Hojas-Decoracion-Oblea-Verde-Claro">Hojas-Decoracion-Oblea-Verde-Claro</option> 
+            <option value="Hojas-Decoracion-Oblea-Rojo">Hojas-Decoracion-Oblea-Rojo</option>
+            <option value="Hojas-Decoracion-Oblea-Naranja">Hojas-Decoracion-Oblea-Naranja</option> 
+            <option value="Hojas-Decoracion-Oblea-Rosa-Fuerte">Hojas-Decoracion-Rosa-Fuerte</option>
+            <option Value="Hojas-Decoracion-Oblea-Azul-Rey">Hojas-Decoracion-Oblea-Azul-Rey</option>
+            <option value="Mariposas-Oblea-Azul-Oscuro">Mariposas-Oblea-Azul-Oscuro</option> 
+            <option value="Mariposas-Oblea-Rosa">Mariposas-Oblea-Rosa</option>
+            <option value="Mariposas-Oblea-Morado-Lila">Mariposas-Oblea-Morado-Lila</option> 
+            <option value="Mariposas-Oblea-Rojo">Mariposas-Oblea-Rojo</option>
+            <option value="Mariposas-Oblea-Verde-Claro">Mariposas-Oblea-Verde-Claro</option> 
+            <option value="Mariposas-Oblea-Naranja">Mariposas-Oblea-Naranja</option>
+            <option value="Mariposas-Oblea-Azul-Claro">Mariposas-Oblea-Azul-Claro</option> 
+            <option value="Mariposas-Oblea-Amarillo">Mariposas-Oblea-Amarillo</option> 
+            <option value="Figuras-Diseños-Fondant">Figuras-Diseños-Fondant</option>
+            <option value="Escamas-Purpurina-Verde-Claro">Escamas-Purpurina-Verde-Claro</option>
+            <option value="Escamas-Purpurina-Amarillo">Escamas-Purpurina-Amarillo</option>
+            <option value="Escamas-Purpurina-Rosa-Fuerte">Escamas-Purpurina-Rosa-Fuerte</option>
+            <option value="Escamas-Purpurina-Naranja">Escamas-Purpurina-Naranja</option>
+            <option value="Escamas-Purpurina-Rojo">Escamas-Purpurina-Rojo</option>
+            <option value="Escamas-Purpurina-Azul-Rey">Escamas-Purpurina-Azul-Rey</option>
+            <option value="Diamantes-Comestibles-Morado-Lila">Diamantes-Comestibles-Morado-Lila</option>
+            <option value="Diamantes-comestibles-Verde-Turquesa">Diamantes-Comestibles-Verde-Turquesa</option>
+            <option value="Diamantes-Comestibles-Azul-Cielo">Diamantes-Comestibles-Azul-Cielo</option>
+            <option value="Diamantes-Comestibles-Blanco">Diamantes-Comestibles-Blanco</option>
+            <option value="Diamantes-comestibles-Morado">Diamantes-Comestibles-Morado</option>
+            <option value="Diamantes-Comestibles-Amarillo">Diamantes-Comestibles-Amarillo</option>
+            <option value="Diamantes-Comestibles-Rosa">Diamantes-Comestibles-Rosa</option>
+            <option value="Diamantes-Comestibles-Verde-Claro">Diamantes-Comestibles-Verde-Claro</option>
+            <option value="Diamantes-Comestibles-Azul-Rey">Diamantes-Comestibles-Azul-Rey</option>
+            <option value="Diamantes-Comestibles-Rojo">Diamantes-Comestibles-Rojo</option>
+            <option value="Diamantes-Comestibles-Naranja">Diamantes-Comestibles-Naranja</option>
+            <option value="Gemas-Crystales-Comestibles">Gemas-Crystales-Comestibles</option>
+            <option value="Glaseado-Chocolate">Glaseado-Chocolate</option>
+            <option value="Glaseado-Vainilla">Glaseado-Vainilla</option>
+            <option value="Glaseado-Fresa">Glasedo-Fresa</option>
+            <option value="Glaseado-Piña">Glaseado de Piña</option>
+            <option value="Flores artificiales">Flores-Artificiales</option>
+        </select>
+       
+        </select>
+
+
+
+
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+
+
+
+
+</body>
+
+</html>
