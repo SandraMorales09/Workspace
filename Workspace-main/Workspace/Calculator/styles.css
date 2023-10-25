@@ -1,0 +1,50 @@
+    #app8g {
+        height: 420px;
+        width: 300px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    #app8g form {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #app8g input[type=textfield] {
+        height: 20%;
+        width: 100%;
+        cursor: default;
+        font-family: 'Roboto', sans serif;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 15px;
+        text-align: right;
+        font-size: 50px;
+        border: 0;
+        outline: none; 
+    }
+
+    #app8g input[type=button], input[type=reset] {
+        width: 22%;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: black;
+        padding: 18px;
+        margin: 3px;
+        border: 0;
+        border-radius: 100%;
+    }
+
+    #app8g .lime {
+        background-color: rgb(0, 255, 0) !important;
+        color: white !important;
+    }
+
+    #app8g .gray {
+        background-color: rgb(51, 51, 51) !important;
+        color: greenyellow !important;
+    }
+
