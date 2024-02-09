@@ -1,0 +1,95 @@
+.image {
+    background-image: utl("img/logo cafeteria.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.image {
+    align-self: flex-start;
+}
+
+.image {
+    width: 120;
+    height: 120px;
+    text-align: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contein {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contein-0 {
+    min-height: 80px;
+    background: #006400;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff8dc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    font-size: relative;
+    float: left;
+}
+
+.menu .navbar ul li {
+    font-size: relative;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.cont-0 {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+    color: #8B4513;
+    justify-content: center; 
+}
+
+.cont-0 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    text-transform: 600;
+    text-shadow: 2px 5px #000;
+}
+
+
+
